@@ -12,5 +12,7 @@
 </body>
 
 <script src="/js/jquery-1.11.2.min.js"></script>
-@yield('my-js')
+<script type="text/javascript">
+    @yield('my-js')
+</script>
 </html>

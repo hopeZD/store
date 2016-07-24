@@ -7,6 +7,6 @@ Route::get('/', function() {
 });
 
 
-Route::any('Service/validate_code/create', 'Service\ValidateCodeController@create');
+Route::any('/service/validate_code/create', 'Service\ValidateCodeController@create');
 
 

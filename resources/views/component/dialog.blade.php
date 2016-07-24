@@ -1,5 +1,5 @@
 <!-- dialog -->
-<div id="dialog" class="weui_dialog_confirm" >
+<div id="dialog" class="weui_dialog_confirm" style="display: none;">
   <div class="weui_mask"></div>
   <div class="weui_dialog">
     <div class="weui_dialog_hd">

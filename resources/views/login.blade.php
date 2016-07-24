@@ -9,5 +9,5 @@
 @endsection
 
 @section('my-js')
-    alert('登录');
+
 @endsection()

@@ -12,6 +12,6 @@ use App\Entity\Member;
 
 
     Route::any('/service/validate_code/create', 'Service\ValidateCodeController@create');
-    Route::any('/service/validate_phone/send', 'Service\ValidateCodeController@create');
+    Route::any('/service/validate_phone/send', 'Service\ValidateCodeController@sendSMS');
 
 

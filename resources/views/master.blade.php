@@ -81,8 +81,7 @@
     }
 </script>
 
-<script type="text/javascript">
-    @yield('my-js')
-</script>
+@yield('my-js')
+
 
 </html>

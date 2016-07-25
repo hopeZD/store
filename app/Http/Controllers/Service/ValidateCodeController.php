@@ -26,7 +26,7 @@ class ValidateCodeController extends Controller
             $code .= $charset[mt_rand(0, $_len)];
         }
 
-        $sendTemplateSMS->sendTemplateSMS("18810256225", array(code, 60), 1);
+        $sendTemplateSMS->sendTemplateSMS("18810256225", array($code, 60), 1);
         return 'XX';
     }
 

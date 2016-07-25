@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace App\Http\Controllers\Service;
 
 use App\Http\Controllers\Controller;
 use App\Tool\Validate\ValidateCode;
 
-class ValidataCodeController extends Controller
+class ValidateCodeController extends Controller
 {
     public function create($value = '')
     {
